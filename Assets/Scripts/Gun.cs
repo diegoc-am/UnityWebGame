@@ -9,21 +9,25 @@ public class Gun : MonoBehaviour
 
 	private PlayerControl playerCtrl;		// Reference to the PlayerControl script.
 	private Animator anim;					// Reference to the Animator component.
-
+	private bool ableToShoot;
 
 	void Awake()
 	{
 		// Setting up the references.
 		anim = transform.root.gameObject.GetComponent<Animator>();
 		playerCtrl = transform.root.GetComponent<PlayerControl>();
+		ableToShoot = true;
+		StartCoroutine(shootDelay());
+
 	}
 
 
 	void Update ()
 	{
 		// If the fire button is pressed...
-		if(Input.GetButtonDown("Fire1"))
+		if(Input.GetButtonDown("Fire1") && ableToShoot)
 		{
+			ableToShoot = false;
 			// ... set the animator Shoot trigger parameter and play the audioclip.
 			anim.SetTrigger("Shoot");
 			audio.Play();
@@ -42,5 +46,13 @@ public class Gun : MonoBehaviour
 				bulletInstance.velocity = new Vector2(-speed, 0);
 			}
 		}
+	}
+
+	IEnumerator shootDelay(){
+		while (true){
+			yield return new WaitForSeconds(0.3f);
+			ableToShoot = true;
+		}
+
 	}
 }

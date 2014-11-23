@@ -14,11 +14,13 @@ public class PlayerHealth : MonoBehaviour
 	private Vector3 healthScale;				// The local scale of the health bar initially (with full health).
 	private PlayerControl playerControl;		// Reference to the PlayerControl script.
 	private Animator anim;						// Reference to the Animator on the player
-
+	private Score score;						// Reference to the Score script.
+	public GameObject PointsUI;					// A prefab of 100 that appears when the enemy dies.
 
 	void Awake ()
 	{
 		// Setting up references.
+		score = GameObject.Find("Score").GetComponent<Score>();
 		playerControl = GetComponent<PlayerControl>();
 		healthBar = GameObject.Find("HealthBar").GetComponent<SpriteRenderer>();
 		anim = GetComponent<Animator>();
@@ -70,6 +72,22 @@ public class PlayerHealth : MonoBehaviour
 					anim.SetTrigger("Die");
 				}
 			}
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D c){
+		//Debug.Log(c.transform.name);
+		if(c.transform.name.Equals("USD")){
+
+
+			score.score += 10;
+			// Create a vector that is just above the enemy.
+			Vector3 scorePos;
+			scorePos = transform.position;
+			scorePos.y += 1.5f;
+			Destroy(c.gameObject);
+			// Instantiate the 100 points prefab at this point.
+			Instantiate(PointsUI, scorePos, Quaternion.identity);
 		}
 	}
 

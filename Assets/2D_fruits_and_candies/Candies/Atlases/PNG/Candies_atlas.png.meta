@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 2db3aa689aef01e4eaa9cbde25a91498
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: candy11
+    21300002: candy3
+    21300004: candy2
+    21300006: candy1
+    21300008: candy9
+    21300010: candy10
+    21300012: candy12
+    21300014: candy4
+    21300016: candy8
+    21300018: candy13
+    21300020: candy14
+    21300022: candy6
+    21300024: candy5
+    21300026: candy7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: candy11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2364
+        width: 728
+        height: 1664
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy3
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2266
+        width: 732
+        height: 1742
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3539
+        width: 1080
+        height: 434
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy1
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2976
+        width: 1080
+        height: 436
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy9
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 2264
+        width: 630
+        height: 580
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy10
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 2264
+        width: 632
+        height: 580
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 542
+        width: 728
+        height: 1662
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 391
+        width: 732
+        height: 1742
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy8
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 391
+        width: 616
+        height: 1742
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy13
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 1260
+        width: 632
+        height: 894
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy14
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 1260
+        width: 540
+        height: 740
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy6
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 596
+        width: 541
+        height: 544
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy5
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 596
+        width: 540
+        height: 544
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy7
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2223
+        width: 600
+        height: 1742
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

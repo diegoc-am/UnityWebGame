@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 2860da68a2398ab4fb4c1e25f3d54a04
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: candy10_part1
+    21300002: candy10_part2
+    21300004: candy1_part1
+    21300006: candy1_part2
+    21300008: candy2_part1
+    21300010: candy2_part2
+    21300012: candy11_part1
+    21300014: candy12_part1
+    21300016: candy11_part2
+    21300018: candy12_part2
+    21300020: candy13_part1
+    21300022: candy5_part2
+    21300024: candy6_part1
+    21300026: candy6_part2
+    21300028: candy13_part2
+    21300030: candy3_part1
+    21300032: candy3_part2
+    21300034: candy4_part2
+    21300036: candy9_part1
+    21300038: candy9_part2
+    21300040: candy14_part1
+    21300042: candy7_part1
+    21300044: candy4_part1
+    21300046: candy8_part1
+    21300048: candy14_part2
+    21300050: candy7_part2
+    21300052: candy5_part1
+    21300054: candy8_part2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: candy10_part1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3560
+        width: 481
+        height: 526
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy10_part2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3605
+        width: 577
+        height: 483
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy1_part1
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 3693
+        width: 708
+        height: 393
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy1_part2
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3681
+        width: 719
+        height: 407
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy2_part1
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 3692
+        width: 709
+        height: 394
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy2_part2
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 3685
+        width: 718
+        height: 401
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy11_part1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2026
+        width: 227
+        height: 1515
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy12_part1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2027
+        width: 230
+        height: 1514
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy11_part2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2982
+        width: 647
+        height: 603
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy12_part2
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2982
+        width: 646
+        height: 603
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy13_part1
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 3092
+        width: 523
+        height: 493
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy5_part2
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 3127
+        width: 458
+        height: 458
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy6_part1
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 3128
+        width: 458
+        height: 457
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy6_part2
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 3128
+        width: 457
+        height: 457
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy13_part2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2143
+        width: 527
+        height: 821
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy3_part1
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1340
+        width: 606
+        height: 1618
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy3_part2
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 2333
+        width: 625
+        height: 629
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy4_part2
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 2334
+        width: 629
+        height: 630
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy9_part1
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 2436
+        width: 481
+        height: 528
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy9_part2
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 2481
+        width: 580
+        height: 483
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy14_part1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1384
+        width: 468
+        height: 621
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy7_part1
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 471
+        width: 521
+        height: 1651
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy4_part1
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 688
+        width: 607
+        height: 1625
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy8_part1
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 663
+        width: 524
+        height: 1650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy14_part2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 738
+        width: 469
+        height: 626
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy7_part2
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 801
+        width: 523
+        height: 519
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy5_part1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 259
+        width: 460
+        height: 458
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candy8_part2
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 261
+        width: 521
+        height: 519
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
