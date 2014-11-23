@@ -84,9 +84,8 @@ GameObject:
   - 4: {fileID: 25936821}
   - 212: {fileID: 25936824}
   - 95: {fileID: 25936823}
-  - 61: {fileID: 25936822}
-  - 58: {fileID: 25936825}
   - 50: {fileID: 25936826}
+  - 61: {fileID: 25936825}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -106,18 +105,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 22
---- !u!61 &25936822
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 324612765}
-  m_GameObject: {fileID: 25936820}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &25936823
 Animator:
   serializedVersion: 3
@@ -157,17 +144,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &25936825
-CircleCollider2D:
+--- !u!61 &25936825
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 324612765}
   m_GameObject: {fileID: 25936820}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &25936826
 Rigidbody2D:
@@ -195,9 +182,8 @@ GameObject:
   - 4: {fileID: 29452802}
   - 212: {fileID: 29452805}
   - 95: {fileID: 29452804}
-  - 61: {fileID: 29452803}
-  - 58: {fileID: 29452806}
   - 50: {fileID: 29452807}
+  - 61: {fileID: 29452806}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -217,18 +203,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 3
---- !u!61 &29452803
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 933165608}
-  m_GameObject: {fileID: 29452801}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &29452804
 Animator:
   serializedVersion: 3
@@ -268,17 +242,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &29452806
-CircleCollider2D:
+--- !u!61 &29452806
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 933165608}
   m_GameObject: {fileID: 29452801}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &29452807
 Rigidbody2D:
@@ -473,9 +447,8 @@ GameObject:
   - 4: {fileID: 142031486}
   - 212: {fileID: 142031489}
   - 95: {fileID: 142031488}
-  - 61: {fileID: 142031487}
-  - 58: {fileID: 142031490}
   - 50: {fileID: 142031491}
+  - 61: {fileID: 142031490}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -495,18 +468,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 12
---- !u!61 &142031487
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 421147099}
-  m_GameObject: {fileID: 142031485}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &142031488
 Animator:
   serializedVersion: 3
@@ -546,17 +507,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &142031490
-CircleCollider2D:
+--- !u!61 &142031490
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 421147099}
   m_GameObject: {fileID: 142031485}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &142031491
 Rigidbody2D:
@@ -730,9 +691,8 @@ GameObject:
   - 4: {fileID: 198757880}
   - 212: {fileID: 198757883}
   - 95: {fileID: 198757882}
-  - 61: {fileID: 198757881}
-  - 58: {fileID: 198757884}
   - 50: {fileID: 198757885}
+  - 61: {fileID: 198757884}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -752,18 +712,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 7
---- !u!61 &198757881
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1380608939}
-  m_GameObject: {fileID: 198757879}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &198757882
 Animator:
   serializedVersion: 3
@@ -803,17 +751,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &198757884
-CircleCollider2D:
+--- !u!61 &198757884
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 1380608939}
   m_GameObject: {fileID: 198757879}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &198757885
 Rigidbody2D:
@@ -997,9 +945,8 @@ GameObject:
   - 4: {fileID: 244091925}
   - 212: {fileID: 244091928}
   - 95: {fileID: 244091927}
-  - 61: {fileID: 244091926}
-  - 58: {fileID: 244091929}
   - 50: {fileID: 244091930}
+  - 61: {fileID: 244091929}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -1019,18 +966,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 8
---- !u!61 &244091926
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 409956599}
-  m_GameObject: {fileID: 244091924}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &244091927
 Animator:
   serializedVersion: 3
@@ -1070,17 +1005,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &244091929
-CircleCollider2D:
+--- !u!61 &244091929
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 409956599}
   m_GameObject: {fileID: 244091924}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &244091930
 Rigidbody2D:
@@ -1148,9 +1083,8 @@ GameObject:
   - 4: {fileID: 261470250}
   - 212: {fileID: 261470253}
   - 95: {fileID: 261470252}
-  - 61: {fileID: 261470251}
-  - 58: {fileID: 261470254}
   - 50: {fileID: 261470255}
+  - 61: {fileID: 261470254}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -1170,18 +1104,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 21
---- !u!61 &261470251
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 660310664}
-  m_GameObject: {fileID: 261470249}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &261470252
 Animator:
   serializedVersion: 3
@@ -1221,17 +1143,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &261470254
-CircleCollider2D:
+--- !u!61 &261470254
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 660310664}
   m_GameObject: {fileID: 261470249}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &261470255
 Rigidbody2D:
@@ -1449,9 +1371,8 @@ GameObject:
   - 4: {fileID: 305229742}
   - 212: {fileID: 305229745}
   - 95: {fileID: 305229744}
-  - 61: {fileID: 305229743}
-  - 58: {fileID: 305229746}
   - 50: {fileID: 305229747}
+  - 61: {fileID: 305229746}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -1471,18 +1392,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 26
---- !u!61 &305229743
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1966775053}
-  m_GameObject: {fileID: 305229741}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &305229744
 Animator:
   serializedVersion: 3
@@ -1522,17 +1431,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &305229746
-CircleCollider2D:
+--- !u!61 &305229746
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 1966775053}
   m_GameObject: {fileID: 305229741}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &305229747
 Rigidbody2D:
@@ -1560,9 +1469,8 @@ GameObject:
   - 4: {fileID: 308868101}
   - 212: {fileID: 308868104}
   - 95: {fileID: 308868103}
-  - 61: {fileID: 308868102}
-  - 58: {fileID: 308868105}
   - 50: {fileID: 308868106}
+  - 61: {fileID: 308868105}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -1582,18 +1490,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 17
---- !u!61 &308868102
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 282229392}
-  m_GameObject: {fileID: 308868100}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &308868103
 Animator:
   serializedVersion: 3
@@ -1633,17 +1529,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &308868105
-CircleCollider2D:
+--- !u!61 &308868105
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 282229392}
   m_GameObject: {fileID: 308868100}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &308868106
 Rigidbody2D:
@@ -3703,9 +3599,8 @@ GameObject:
   - 4: {fileID: 579964563}
   - 212: {fileID: 579964566}
   - 95: {fileID: 579964565}
-  - 61: {fileID: 579964564}
-  - 58: {fileID: 579964567}
   - 50: {fileID: 579964568}
+  - 61: {fileID: 579964567}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -3725,18 +3620,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 10
---- !u!61 &579964564
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 990808505}
-  m_GameObject: {fileID: 579964562}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &579964565
 Animator:
   serializedVersion: 3
@@ -3776,17 +3659,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &579964567
-CircleCollider2D:
+--- !u!61 &579964567
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 990808505}
   m_GameObject: {fileID: 579964562}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &579964568
 Rigidbody2D:
@@ -3987,9 +3870,8 @@ GameObject:
   - 4: {fileID: 630399690}
   - 212: {fileID: 630399693}
   - 95: {fileID: 630399692}
-  - 61: {fileID: 630399691}
-  - 58: {fileID: 630399694}
   - 50: {fileID: 630399695}
+  - 61: {fileID: 630399694}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -4009,18 +3891,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 2
---- !u!61 &630399691
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 435065186}
-  m_GameObject: {fileID: 630399689}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &630399692
 Animator:
   serializedVersion: 3
@@ -4060,17 +3930,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &630399694
-CircleCollider2D:
+--- !u!61 &630399694
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 435065186}
   m_GameObject: {fileID: 630399689}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &630399695
 Rigidbody2D:
@@ -4098,9 +3968,8 @@ GameObject:
   - 4: {fileID: 639788031}
   - 212: {fileID: 639788034}
   - 95: {fileID: 639788033}
-  - 61: {fileID: 639788032}
-  - 58: {fileID: 639788035}
   - 50: {fileID: 639788036}
+  - 61: {fileID: 639788035}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -4120,18 +3989,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 5
---- !u!61 &639788032
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1426318062}
-  m_GameObject: {fileID: 639788030}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &639788033
 Animator:
   serializedVersion: 3
@@ -4171,17 +4028,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &639788035
-CircleCollider2D:
+--- !u!61 &639788035
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 1426318062}
   m_GameObject: {fileID: 639788030}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &639788036
 Rigidbody2D:
@@ -4343,9 +4200,8 @@ GameObject:
   - 4: {fileID: 660625445}
   - 212: {fileID: 660625448}
   - 95: {fileID: 660625447}
-  - 61: {fileID: 660625446}
-  - 58: {fileID: 660625449}
   - 50: {fileID: 660625450}
+  - 61: {fileID: 660625449}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -4365,18 +4221,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 1
---- !u!61 &660625446
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1395659811}
-  m_GameObject: {fileID: 660625444}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &660625447
 Animator:
   serializedVersion: 3
@@ -4416,17 +4260,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &660625449
-CircleCollider2D:
+--- !u!61 &660625449
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 1395659811}
   m_GameObject: {fileID: 660625444}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &660625450
 Rigidbody2D:
@@ -4982,9 +4826,8 @@ GameObject:
   - 4: {fileID: 820088530}
   - 212: {fileID: 820088533}
   - 95: {fileID: 820088532}
-  - 61: {fileID: 820088531}
-  - 58: {fileID: 820088534}
   - 50: {fileID: 820088535}
+  - 61: {fileID: 820088534}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -5004,18 +4847,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 24
---- !u!61 &820088531
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1237010421}
-  m_GameObject: {fileID: 820088529}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &820088532
 Animator:
   serializedVersion: 3
@@ -5055,17 +4886,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &820088534
-CircleCollider2D:
+--- !u!61 &820088534
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 1237010421}
   m_GameObject: {fileID: 820088529}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &820088535
 Rigidbody2D:
@@ -6871,9 +6702,8 @@ GameObject:
   - 4: {fileID: 1023299465}
   - 212: {fileID: 1023299468}
   - 95: {fileID: 1023299467}
-  - 61: {fileID: 1023299466}
-  - 58: {fileID: 1023299469}
   - 50: {fileID: 1023299470}
+  - 61: {fileID: 1023299469}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -6893,18 +6723,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 14
---- !u!61 &1023299466
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 791479883}
-  m_GameObject: {fileID: 1023299464}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1023299467
 Animator:
   serializedVersion: 3
@@ -6944,17 +6762,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1023299469
-CircleCollider2D:
+--- !u!61 &1023299469
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 791479883}
   m_GameObject: {fileID: 1023299464}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1023299470
 Rigidbody2D:
@@ -6982,9 +6800,8 @@ GameObject:
   - 4: {fileID: 1025528403}
   - 212: {fileID: 1025528406}
   - 95: {fileID: 1025528405}
-  - 61: {fileID: 1025528404}
-  - 58: {fileID: 1025528407}
   - 50: {fileID: 1025528408}
+  - 61: {fileID: 1025528407}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -7004,18 +6821,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 18
---- !u!61 &1025528404
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1268073185}
-  m_GameObject: {fileID: 1025528402}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1025528405
 Animator:
   serializedVersion: 3
@@ -7055,17 +6860,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1025528407
-CircleCollider2D:
+--- !u!61 &1025528407
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 1268073185}
   m_GameObject: {fileID: 1025528402}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1025528408
 Rigidbody2D:
@@ -7119,11 +6924,12 @@ MonoBehaviour:
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
-  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
+  - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100006, guid: 66fe2da2077f94183ae003dde85a8b1a, type: 2}
+  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
 --- !u!4 &1035144488
 Transform:
   m_ObjectHideFlags: 0
@@ -7337,11 +7143,12 @@ MonoBehaviour:
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
-  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
+  - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100006, guid: 66fe2da2077f94183ae003dde85a8b1a, type: 2}
+  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
 --- !u!4 &1049173829
 Transform:
   m_ObjectHideFlags: 0
@@ -10132,9 +9939,8 @@ GameObject:
   - 4: {fileID: 1251554956}
   - 212: {fileID: 1251554959}
   - 95: {fileID: 1251554958}
-  - 61: {fileID: 1251554957}
-  - 58: {fileID: 1251554960}
   - 50: {fileID: 1251554961}
+  - 61: {fileID: 1251554960}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -10154,18 +9960,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 27
---- !u!61 &1251554957
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 524142919}
-  m_GameObject: {fileID: 1251554955}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1251554958
 Animator:
   serializedVersion: 3
@@ -10205,17 +9999,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1251554960
-CircleCollider2D:
+--- !u!61 &1251554960
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 524142919}
   m_GameObject: {fileID: 1251554955}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1251554961
 Rigidbody2D:
@@ -10370,11 +10164,12 @@ MonoBehaviour:
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
-  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
+  - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100006, guid: 66fe2da2077f94183ae003dde85a8b1a, type: 2}
+  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
 --- !u!1 &1319625011
 GameObject:
   m_ObjectHideFlags: 0
@@ -10487,9 +10282,8 @@ GameObject:
   - 4: {fileID: 1334704063}
   - 212: {fileID: 1334704066}
   - 95: {fileID: 1334704065}
-  - 61: {fileID: 1334704064}
-  - 58: {fileID: 1334704067}
   - 50: {fileID: 1334704068}
+  - 61: {fileID: 1334704067}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -10509,18 +10303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 4
---- !u!61 &1334704064
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 906549361}
-  m_GameObject: {fileID: 1334704062}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1334704065
 Animator:
   serializedVersion: 3
@@ -10560,17 +10342,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1334704067
-CircleCollider2D:
+--- !u!61 &1334704067
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 906549361}
   m_GameObject: {fileID: 1334704062}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1334704068
 Rigidbody2D:
@@ -10692,9 +10474,8 @@ GameObject:
   - 4: {fileID: 1348229110}
   - 212: {fileID: 1348229113}
   - 95: {fileID: 1348229112}
-  - 61: {fileID: 1348229111}
-  - 58: {fileID: 1348229114}
   - 50: {fileID: 1348229115}
+  - 61: {fileID: 1348229114}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -10714,18 +10495,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 25
---- !u!61 &1348229111
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 944868578}
-  m_GameObject: {fileID: 1348229109}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1348229112
 Animator:
   serializedVersion: 3
@@ -10765,17 +10534,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1348229114
-CircleCollider2D:
+--- !u!61 &1348229114
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 944868578}
   m_GameObject: {fileID: 1348229109}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1348229115
 Rigidbody2D:
@@ -12225,9 +11994,8 @@ GameObject:
   - 4: {fileID: 1474382153}
   - 212: {fileID: 1474382156}
   - 95: {fileID: 1474382155}
-  - 61: {fileID: 1474382154}
-  - 58: {fileID: 1474382157}
   - 50: {fileID: 1474382158}
+  - 61: {fileID: 1474382157}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -12247,18 +12015,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 9
---- !u!61 &1474382154
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1353914323}
-  m_GameObject: {fileID: 1474382152}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1474382155
 Animator:
   serializedVersion: 3
@@ -12298,17 +12054,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1474382157
-CircleCollider2D:
+--- !u!61 &1474382157
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 1353914323}
   m_GameObject: {fileID: 1474382152}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1474382158
 Rigidbody2D:
@@ -12554,9 +12310,8 @@ GameObject:
   - 4: {fileID: 1523671895}
   - 212: {fileID: 1523671898}
   - 95: {fileID: 1523671897}
-  - 61: {fileID: 1523671896}
-  - 58: {fileID: 1523671899}
   - 50: {fileID: 1523671900}
+  - 61: {fileID: 1523671899}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -12576,18 +12331,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 0
---- !u!61 &1523671896
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 596350308}
-  m_GameObject: {fileID: 1523671894}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1523671897
 Animator:
   serializedVersion: 3
@@ -12627,17 +12370,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1523671899
-CircleCollider2D:
+--- !u!61 &1523671899
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 596350308}
   m_GameObject: {fileID: 1523671894}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1523671900
 Rigidbody2D:
@@ -12756,11 +12499,12 @@ MonoBehaviour:
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
-  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
+  - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
   - {fileID: 100006, guid: 66fe2da2077f94183ae003dde85a8b1a, type: 2}
+  - {fileID: 100000, guid: ea94bea170fae1046bac6cd154dccd7b, type: 2}
 --- !u!4 &1556087194
 Transform:
   m_ObjectHideFlags: 0
@@ -12784,9 +12528,8 @@ GameObject:
   - 4: {fileID: 1565393131}
   - 212: {fileID: 1565393134}
   - 95: {fileID: 1565393133}
-  - 61: {fileID: 1565393132}
-  - 58: {fileID: 1565393135}
   - 50: {fileID: 1565393136}
+  - 61: {fileID: 1565393135}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -12806,18 +12549,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 11
---- !u!61 &1565393132
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 2094454582}
-  m_GameObject: {fileID: 1565393130}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1565393133
 Animator:
   serializedVersion: 3
@@ -12857,17 +12588,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1565393135
-CircleCollider2D:
+--- !u!61 &1565393135
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 2094454582}
   m_GameObject: {fileID: 1565393130}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1565393136
 Rigidbody2D:
@@ -12947,9 +12678,8 @@ GameObject:
   - 4: {fileID: 1625822979}
   - 212: {fileID: 1625822982}
   - 95: {fileID: 1625822981}
-  - 61: {fileID: 1625822980}
-  - 58: {fileID: 1625822983}
   - 50: {fileID: 1625822984}
+  - 61: {fileID: 1625822983}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -12969,18 +12699,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 20
---- !u!61 &1625822980
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 885847417}
-  m_GameObject: {fileID: 1625822978}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1625822981
 Animator:
   serializedVersion: 3
@@ -13020,17 +12738,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1625822983
-CircleCollider2D:
+--- !u!61 &1625822983
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 885847417}
   m_GameObject: {fileID: 1625822978}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1625822984
 Rigidbody2D:
@@ -13058,9 +12776,8 @@ GameObject:
   - 4: {fileID: 1636364793}
   - 212: {fileID: 1636364796}
   - 95: {fileID: 1636364795}
-  - 61: {fileID: 1636364794}
-  - 58: {fileID: 1636364797}
   - 50: {fileID: 1636364798}
+  - 61: {fileID: 1636364797}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -13080,18 +12797,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 13
---- !u!61 &1636364794
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 740880324}
-  m_GameObject: {fileID: 1636364792}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1636364795
 Animator:
   serializedVersion: 3
@@ -13131,17 +12836,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1636364797
-CircleCollider2D:
+--- !u!61 &1636364797
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 740880324}
   m_GameObject: {fileID: 1636364792}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1636364798
 Rigidbody2D:
@@ -13234,9 +12939,8 @@ GameObject:
   - 4: {fileID: 1651631628}
   - 212: {fileID: 1651631631}
   - 95: {fileID: 1651631630}
-  - 61: {fileID: 1651631629}
-  - 58: {fileID: 1651631632}
   - 50: {fileID: 1651631633}
+  - 61: {fileID: 1651631632}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -13256,18 +12960,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 15
---- !u!61 &1651631629
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 198036626}
-  m_GameObject: {fileID: 1651631627}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1651631630
 Animator:
   serializedVersion: 3
@@ -13307,17 +12999,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1651631632
-CircleCollider2D:
+--- !u!61 &1651631632
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 198036626}
   m_GameObject: {fileID: 1651631627}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1651631633
 Rigidbody2D:
@@ -13345,9 +13037,8 @@ GameObject:
   - 4: {fileID: 1666568842}
   - 212: {fileID: 1666568845}
   - 95: {fileID: 1666568844}
-  - 61: {fileID: 1666568843}
-  - 58: {fileID: 1666568846}
   - 50: {fileID: 1666568847}
+  - 61: {fileID: 1666568846}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -13367,18 +13058,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 19
---- !u!61 &1666568843
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 285366150}
-  m_GameObject: {fileID: 1666568841}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1666568844
 Animator:
   serializedVersion: 3
@@ -13418,17 +13097,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1666568846
-CircleCollider2D:
+--- !u!61 &1666568846
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 285366150}
   m_GameObject: {fileID: 1666568841}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1666568847
 Rigidbody2D:
@@ -13456,9 +13135,8 @@ GameObject:
   - 4: {fileID: 1669624968}
   - 212: {fileID: 1669624971}
   - 95: {fileID: 1669624970}
-  - 61: {fileID: 1669624969}
-  - 58: {fileID: 1669624972}
   - 50: {fileID: 1669624973}
+  - 61: {fileID: 1669624972}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -13478,18 +13156,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 6
---- !u!61 &1669624969
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 491156250}
-  m_GameObject: {fileID: 1669624967}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1669624970
 Animator:
   serializedVersion: 3
@@ -13529,17 +13195,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1669624972
-CircleCollider2D:
+--- !u!61 &1669624972
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 491156250}
   m_GameObject: {fileID: 1669624967}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1669624973
 Rigidbody2D:
@@ -13607,9 +13273,8 @@ GameObject:
   - 4: {fileID: 1727279930}
   - 212: {fileID: 1727279933}
   - 95: {fileID: 1727279932}
-  - 61: {fileID: 1727279931}
-  - 58: {fileID: 1727279934}
   - 50: {fileID: 1727279935}
+  - 61: {fileID: 1727279934}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -13629,18 +13294,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 16
---- !u!61 &1727279931
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 518356054}
-  m_GameObject: {fileID: 1727279929}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1727279932
 Animator:
   serializedVersion: 3
@@ -13680,17 +13333,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1727279934
-CircleCollider2D:
+--- !u!61 &1727279934
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 518356054}
   m_GameObject: {fileID: 1727279929}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1727279935
 Rigidbody2D:
@@ -14145,9 +13798,8 @@ GameObject:
   - 4: {fileID: 1890324198}
   - 212: {fileID: 1890324201}
   - 95: {fileID: 1890324200}
-  - 61: {fileID: 1890324199}
-  - 58: {fileID: 1890324202}
   - 50: {fileID: 1890324203}
+  - 61: {fileID: 1890324202}
   m_Layer: 11
   m_Name: USD
   m_TagString: Coin
@@ -14167,18 +13819,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800977432}
   m_RootOrder: 23
---- !u!61 &1890324199
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: ea94bea170fae1046bac6cd154dccd7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 366352313}
-  m_GameObject: {fileID: 1890324197}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1.24000001, y: 1.24000001}
-  m_Center: {x: 0, y: 0}
 --- !u!95 &1890324200
 Animator:
   serializedVersion: 3
@@ -14218,17 +13858,17 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300022, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!58 &1890324202
-CircleCollider2D:
+--- !u!61 &1890324202
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: ea94bea170fae1046bac6cd154dccd7b,
+  m_PrefabParentObject: {fileID: 6100002, guid: ea94bea170fae1046bac6cd154dccd7b,
     type: 2}
   m_PrefabInternal: {fileID: 366352313}
   m_GameObject: {fileID: 1890324197}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .5
+  m_Size: {x: 1.24000001, y: 1.24000001}
   m_Center: {x: 0, y: 0}
 --- !u!50 &1890324203
 Rigidbody2D:

@@ -73,13 +73,21 @@ public class PlayerHealth : MonoBehaviour
 				}
 			}
 		}
+		else if(col.transform.name.Equals("USD")){
+			score.score += 10;
+			// Create a vector that is just above the enemy.
+			Vector3 scorePos;
+			scorePos = transform.position;
+			scorePos.y += 1.5f;
+			Destroy(col.gameObject);
+			// Instantiate the 100 points prefab at this point.
+			Instantiate(PointsUI, scorePos, Quaternion.identity);
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D c){
 		//Debug.Log(c.transform.name);
 		if(c.transform.name.Equals("USD")){
-
-
 			score.score += 10;
 			// Create a vector that is just above the enemy.
 			Vector3 scorePos;
