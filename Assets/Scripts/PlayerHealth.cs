@@ -73,7 +73,7 @@ public class PlayerHealth : MonoBehaviour
 				}
 			}
 		}
-		else if(col.transform.name.Equals("USD")){
+		else if(col.transform.name.Equals("USD")||col.transform.name.Equals("USD(Clone)")){
 			score.score += 10;
 			// Create a vector that is just above the enemy.
 			Vector3 scorePos;
@@ -87,7 +87,7 @@ public class PlayerHealth : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D c){
 		//Debug.Log(c.transform.name);
-		if(c.transform.name.Equals("USD")){
+		if(c.transform.name.Equals("USD") || c.transform.name.Equals("USD(Clone)")){
 			score.score += 10;
 			// Create a vector that is just above the enemy.
 			Vector3 scorePos;
