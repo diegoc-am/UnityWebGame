@@ -8,12 +8,17 @@ public class Pauser : MonoBehaviour {
 	void Update () {
 		if(Input.GetKeyUp(KeyCode.P))
 		{
-			paused = !paused;
+			Pause();
 		}
-
 		if(paused)
 			Time.timeScale = 0;
 		else
 			Time.timeScale = 1;
+
+	}
+
+	void Pause(){
+		paused = !paused;
+
 	}
 }

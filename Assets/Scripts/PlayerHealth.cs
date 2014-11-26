@@ -48,6 +48,7 @@ public class PlayerHealth : MonoBehaviour
 				// If the player doesn't have health, do some stuff, let him fall into the river to reload the level.
 				else
 				{
+					Application.ExternalCall( "MorirEnemigo", "Un enemigo te ha matado" );
 					// Find all of the colliders on the gameobject and set them all to be triggers.
 					Collider2D[] cols = GetComponents<Collider2D>();
 					foreach(Collider2D c in cols)
@@ -82,10 +83,11 @@ public class PlayerHealth : MonoBehaviour
 			Destroy(col.gameObject);
 			// Instantiate the 100 points prefab at this point.
 			Instantiate(PointsUI, scorePos, Quaternion.identity);
+			Application.ExternalCall( "AgarrarMoneda", "Agarraste una moneda" );
 		}
 	}
 
-	void OnTriggerEnter2D(Collider2D c){
+	/*void OnTriggerEnter2D(Collider2D c){
 		//Debug.Log(c.transform.name);
 		if(c.transform.name.Equals("USD") || c.transform.name.Equals("USD(Clone)")){
 			score.score += 10;
@@ -97,7 +99,7 @@ public class PlayerHealth : MonoBehaviour
 			// Instantiate the 100 points prefab at this point.
 			Instantiate(PointsUI, scorePos, Quaternion.identity);
 		}
-	}
+	}*/
 
 
 	void TakeDamage (Transform enemy)

@@ -66,6 +66,7 @@ public class Enemy : MonoBehaviour
 	
 	void Death()
 	{
+		Application.ExternalCall ("MatarEnemigo", "Un enemigo ha muerto");
 		// Find all of the sprite renderers on this object and it's children.
 		SpriteRenderer[] otherRenderers = GetComponentsInChildren<SpriteRenderer>();
 
